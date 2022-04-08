@@ -1,10 +1,13 @@
 
 # Letmeask
 
+<p align="center">
+  <img src="https://github.com/willHub99/letmeask/blob/main/src/assets/images/logo.svg">
+</p>
+
 Um sistema construído para auxiliar criadores de conteúdo poderem interagir com o seu público de maneira simples e prática.
 
 Este projeto foi desenvolvido durante a [Next Level Week Together](https://app.rocketseat.com.br/node/mission-react-js/group/nlw-together-react-js/lesson/aula-01-liftoff-1), apresentado dos dias 20 a 27 de junho de 2021.
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 
 ## Stack utilizada
@@ -43,6 +46,7 @@ Inicie a Aplicação
 
 Após a devida configuração do firebase, basta executar o comando **yarn start** e acessar a seguinte URL: [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-## Referência
+## Layout
 
+Você pode visualizar o layout utilizado através do link abaixo:
  - [Figma](https://www.figma.com/file/l2m598BtIYMvQePwpnbDki/Letmeask-(Community))
