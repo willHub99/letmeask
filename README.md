@@ -1,46 +1,48 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Letmeask
 
-## Available Scripts
+Um sistema construído para auxiliar criadores de conteúdo poderem interagir com o seu público de maneira simples e prática.
 
-In the project directory, you can run:
+Este projeto foi desenvolvido durante a [Next Level Week Together](https://app.rocketseat.com.br/node/mission-react-js/group/nlw-together-react-js/lesson/aula-01-liftoff-1), apresentado dos dias 20 a 27 de junho de 2021.
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Stack utilizada
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**
+- **Firebase**
+- **TypeScript**
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Rodando localmente
 
-### `yarn build`
+Clone o projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  git clone https://github.com/willHub99/letmeask.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Entre no diretório do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  cd your-path/safe/sleep
+```
 
-### `yarn eject`
+Instale as dependências
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  yarn
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Inicie a Aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  yarn start
+```
+- **OBS**: Antes de utilizar o sistema é necessário a criação de uma conta no firebase e configuração das varíaveis de ambiente encontrada no arquivo **.env**.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Após a devida configuração do firebase, basta executar o comando **yarn start** e acessar a seguinte URL: [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-## Learn More
+## Referência
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ - [Figma](https://www.figma.com/file/l2m598BtIYMvQePwpnbDki/Letmeask-(Community))
